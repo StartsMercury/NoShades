@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "noshades",
+	"version": "${version}",
+	"name": "NoShades Mod",
+	"description": "This mod adds the ability to force enable/disable block shading free of any loading screens.",
+	"authors": [
+		"StartsMercury"
+	],
+	"contact": {
+		"homepage": "https://github.com/StartsMercury/",
+		"sources": "https://github.com/StartsMercury/NoShades"
+	},
+	"license": "MIT",
+	"icon": "pack.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.github.startsmercury.noshades.NoShadesMod"
+		],
+		"modmenu": [
+			"com.github.startsmercury.noshades.NoShadesModMenu"
+		]
+	},
+	"mixins": [
+		"noshades.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.7.4",
+		"fabric": "*",
+		"minecraft": "1.16.x",
+		"modmenu": ">=1.16.14"
+	}
+}
