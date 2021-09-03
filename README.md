@@ -1,4 +1,4 @@
-<img src="src/main/resourcespack.png" width="256">
+<img src="src/main/resources/pack.png" width="256">
 
 # NoShades Mod
 
