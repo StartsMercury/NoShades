@@ -7,6 +7,10 @@ A Minecraft Fabric mod that adds the ability to force enable/disable shading fre
 
 ---
 
+## Usage
+
+To configure start in the title screen or the pause menu, then go to Mods -> NoShades -> Configure.
+
 ## Required Mod(s)
 
 [ModMenu](https://github.com/TerraformersMC/ModMenu) - makes configuring this mod possible.
