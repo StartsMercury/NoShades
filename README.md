@@ -1,6 +1,6 @@
 # NoShades Mod
 
-Adds the ability to force enable/disable shading free of any loading screens.
+A Minecraft Fabric mod that adds the ability to force enable/disable shading free of any loading screens.
 
 ## Required Mod(s)
 
