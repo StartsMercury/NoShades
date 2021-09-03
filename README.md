@@ -5,6 +5,8 @@
 A Minecraft Fabric mod that adds the ability to force enable/disable shading free of any loading screens.
 ![shade](https://user-images.githubusercontent.com/89975834/131935984-dd9ce9c2-cf76-4cbd-a3e0-b436f77cfbd1.gif)
 
+---
+
 ## Required Mod(s)
 
 [ModMenu](https://github.com/TerraformersMC/ModMenu) - makes configuring this mod possible.
