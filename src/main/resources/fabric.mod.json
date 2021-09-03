@@ -8,8 +8,8 @@
 		"StartsMercury"
 	],
 	"contact": {
-		"sources": "https://github.com/StartsMercury/nsohades",
-		"issues": "https://github.com/StartsMercury/nsohades/issues"
+		"sources": "https://github.com/StartsMercury/noshades",
+		"issues": "https://github.com/StartsMercury/noshades/issues"
 	},
 	"license": "MIT",
 	"icon": "pack.png",
