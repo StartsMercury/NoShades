@@ -1,3 +1,5 @@
+<img src="src/main/resourcespack.png" width="256">
+
 # NoShades Mod
 
 A Minecraft Fabric mod that adds the ability to force enable/disable shading free of any loading screens.
