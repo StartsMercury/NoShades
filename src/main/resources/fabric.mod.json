@@ -26,9 +26,10 @@
 		"noshades.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.7.4",
+		"fabricloader": ">=0.11.3",
 		"fabric": "*",
-		"minecraft": "1.16.x",
-		"modmenu": ">=1.16.14"
+		"java": ">=16",
+		"minecraft": "1.17.x",
+		"modmenu": ">=2.0.0-beta.7"
 	}
 }
