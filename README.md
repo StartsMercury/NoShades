@@ -1,3 +1,6 @@
+# DEFERRED
+Me, the author, will be taking a quick break. Then will be back, recharged and motivated in diving into more of Minecraft's code.
+
 <img src="src/main/resources/pack.png" width="256">
 
 # NoShades Mod
