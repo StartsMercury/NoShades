@@ -1,4 +1,4 @@
-# DEFERRED
+# NOTICE
 School has arrived and progress to this mod may slow down, but not stop.
 
 <img src="src/main/resources/pack.png" width="256">
