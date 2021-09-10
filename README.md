@@ -1,5 +1,5 @@
 # DEFERRED
-Me, the author, will be taking a quick break. Then will be back, recharged and motivated in diving into more of Minecraft's code.
+School has arrived and progress to this mod may slow down, but not stop.
 
 <img src="src/main/resources/pack.png" width="256">
 
