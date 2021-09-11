@@ -2,7 +2,7 @@
 
 # Minecraft NoShades Mod
 
-A Minecraft Fabric mod that adds the ability to modify how visible minecraft's shading. **Currently only fluid shades works!**
+A Minecraft Fabric mod that adds the ability to modify how visible minecraft's shading.
 
 ![shade](https://user-images.githubusercontent.com/89975834/131935984-dd9ce9c2-cf76-4cbd-a3e0-b436f77cfbd1.gif)
 
