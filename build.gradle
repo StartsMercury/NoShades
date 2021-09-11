@@ -37,6 +37,9 @@ dependencies {
 	// Using the TOML config format
 	modImplementation("com.moandjiezana.toml:toml4j:${project.toml4j_version}")
 	include "com.moandjiezana.toml:toml4j:${project.toml4j_version}"
+	
+	// FlashyReese's sodium fork for compatibility context.
+    modImplementation "com.github.FlashyReese:sodium-fabric:${project.sodium_version}"
 }
 
 processResources {
