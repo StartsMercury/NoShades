@@ -1,9 +1,6 @@
-# NOTICE
-School has arrived and progress to this mod may slow down, but not stop.
-
 <img src="src/main/resources/pack.png" width="256">
 
-# NoShades Mod
+# Minecraft NoShades Mod
 
 A Minecraft Fabric mod that adds the ability to modify how visible minecraft's shading. **Currently only fluid shades works!**
 
@@ -22,6 +19,10 @@ To configure start in the title screen or the pause menu, then go to `Mods -> No
 ## Compatibility
 
 Currently compatibility with [sodium](https://github.com/CaffeineMC/sodium-fabric) is not implemented. Should be a goal after this mod is complete.
+
+## Notice
+
+School has arrived and progress to this mod may slow down, but not stop.
 
 ## License
 
