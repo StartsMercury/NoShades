@@ -1,0 +1,17 @@
+{
+  "required" : true,
+  "minVersion" : "0.8",
+  "package" : "com.github.startsmercury.noshades.mixin",
+  "compatibilityLevel" : "JAVA_16",
+  "plugin": "com.github.startsmercury.noshades.NoShadesMixinPlugin",
+  "client" : [
+    "indigo.BlockRendererManagerMixin",
+    "indigo.TerrainRenderContextMixin",
+    "minecraft.BlockRendererManagerMixin",
+    "sodium.BlocKRendererMixin",
+    "sodium.FluidRendererMixin"
+  ],
+  "injectors" : {
+    "defaultRequire" : 1
+  }
+}

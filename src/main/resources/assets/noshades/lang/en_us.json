@@ -1,0 +1,23 @@
+{
+  "config.noshades.title" : "NoShades Config",
+  "config.noshades.main.title" : "Main",
+  "config.noshades.main.description0": "This is the primary config category.",
+  "config.noshades.main.enabled.title": "Enabled",
+  "config.noshades.main.enabled.false.tooltip0": "Render vanilla shading.",
+  "config.noshades.main.enabled.true.tooltip0": "Render scaled shading.",
+  "config.noshades.main.reload_config.title": "Reload Config",
+  "config.noshades.main.reload_config.true.tooltip0": "Reloads config from file overidding current changes",
+  "config.noshades.main.reload_on_save.title": "Reload on Save",
+  "config.noshades.main.reload_on_save.false.tooltip0": "Press F3 + A in-game to apply changes.",
+  "config.noshades.main.reload_on_save.true.tooltip0": "The world will be reloaded to apply changes.",
+  "config.noshades.lightness.tooltip0": "-1.0 - fully black.",
+  "config.noshades.lightness.tooltip1": "0.0 - default.",
+  "config.noshades.lightness.tooltip2": "1.0 - no shades.",
+  "config.noshades.main.default_lightness.title": "Default Lightness",
+  "config.noshades.shading.default_lightness_seperated.title": "Default Lightness Seperated",
+  "config.noshades.shading.default_lightness.title": "Default Lightness",
+  "config.noshades.shading.entries.title": "Entries",
+  "config.noshades.shading.entries.description0": "Add/Modify/Remove entries in file config.",
+  "config.noshades.block_shading.title": "Block Shading",
+  "config.noshades.fluid_shading.title": "Fluid Shading"
+}
