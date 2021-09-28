@@ -18,12 +18,16 @@ To configure start in the title screen or the pause menu, then go to `Mods -> No
 
 ## Compatibility
 
-Currently compatibility with [sodium](https://github.com/CaffeineMC/sodium-fabric) is not implemented. Should be a goal after this mod is complete.
+Currently this mod is safely compatible with
+ - Indigo
+ - [Sodium](https://github.com/CaffeineMC/sodium-fabric)
+
+Any mod not on the list is not necessarily incompatible.
 
 ## Notice
 
-School has arrived and progress to this mod may slow down, but not stop.
+Some real-life factors may influence this project and progress may slow down.
 
 ## License
 
-This mod is licensed under MIT License
+This mod is licensed under MIT License.
