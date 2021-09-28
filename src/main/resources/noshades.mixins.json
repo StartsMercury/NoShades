@@ -8,7 +8,7 @@
     "indigo.BlockRendererManagerMixin",
     "indigo.TerrainRenderContextMixin",
     "minecraft.BlockRendererManagerMixin",
-    "sodium.BlocKRendererMixin",
+    "sodium.BlockRendererMixin",
     "sodium.FluidRendererMixin"
   ],
   "injectors" : {
