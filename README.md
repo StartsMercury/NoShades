@@ -1,33 +1,45 @@
-<img src="src/main/resources/pack.png" width="256">
-
-# Minecraft NoShades Mod
-
-A Minecraft Fabric mod that adds the ability to modify how visible minecraft's shading.
-
-![shade](https://user-images.githubusercontent.com/89975834/131935984-dd9ce9c2-cf76-4cbd-a3e0-b436f77cfbd1.gif)
+![Header Image](https://i.imgur.com/6p36ql9.gif)
 
 ---
+<h1 align="center">NoShades Mod</h1>
 
-## Usage
+A Minecraft Fabric mod that adds the ability to modify how visible shades are on the sides.
+
+---
+<h1 align="center">Usage</h1>
 
 To configure start in the title screen or the pause menu, then go to `Mods -> NoShades -> Configure`.
 
-## Required Mod
+### <img src=https://i.imgur.com/0zYKua8.png width=32> [**Lightness**](https://github.com/StartsMercury/noshades/wiki/Home/_edit#-lightness)
 
-[ModMenu](https://github.com/TerraformersMC/ModMenu) - makes configuring this mod possible.
+ - Is a value that changes how visible shades are on the sides.
+ - Negative values are darker. When set to min lightness (`-1`) that side is pure black.
+ - Positive values are brighter. When set to max lightness (`+1`) that side is free of shade.
+ - A value of (`0`) will shade sides as if this mod was not present.
 
-## Compatibility
+---
+<h1 align="center">License</h1>
 
-Currently this mod is safely compatible with
- - Indigo
- - [Sodium](https://github.com/CaffeineMC/sodium-fabric)
+```
+MIT License
 
-Any mod not on the list is not necessarily incompatible.
+Copyright (c) 2021 StartsMercury
 
-## Notice
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Some real-life factors may influence this project and progress may slow down.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## License
-
-This mod is licensed under MIT License.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
