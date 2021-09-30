@@ -18,7 +18,7 @@ To configure start in the title screen or the pause menu, then go to `Mods -> No
  - A value of (`0`) will shade sides as if this mod was not present.
 
 ---
-<h1 align="center">License</h1>
+<h1 align="center"><a href=https://github.com/StartsMercury/noshades/blob/main/LICENSE]>License</a></h1>
 
 ```
 MIT License
