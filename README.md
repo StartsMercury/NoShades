@@ -1,7 +1,7 @@
 ![Header Image](https://i.imgur.com/6p36ql9.gif)
 
 ---
-<h1 align="center">NoShades Mod</h1>
+<h1 align="center"><a href=https://github.com/StartsMercury/noshades/wiki#noshades-wiki>NoShades Mod</a></h1>
 
 A Minecraft Fabric mod that adds the ability to modify how visible shades are on the sides.
 
