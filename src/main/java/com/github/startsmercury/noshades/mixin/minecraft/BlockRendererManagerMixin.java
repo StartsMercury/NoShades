@@ -22,15 +22,15 @@ public abstract class BlockRendererManagerMixin {
 	}
 
 	@ModifyVariable(method = "renderBlock", at = @At("HEAD"), argsOnly = true)
-	private final BlockRenderView modifyWorldInRenderBlock(final BlockRenderView world, final BlockState state,
-			final BlockPos pos, final BlockRenderView worldArg, final MatrixStack matrix,
+	private final BlockRenderView modifyWorldInRenderBlock(final BlockRenderView blockRenderView, final BlockState state,
+			final BlockPos pos, final BlockRenderView world, final MatrixStack matrix,
 			final VertexConsumer vertexConsumer, final boolean cull, final Random random) {
-		return NoShadesUtil.blockLightnessDelegate(world, state);
+		return NoShadesUtil.blockLightnessDelegate(blockRenderView, state);
 	}
 
 	@ModifyVariable(method = "renderFluid", at = @At("HEAD"), argsOnly = true)
-	private final BlockRenderView modifyWorldInRenderFluid(final BlockRenderView world, final BlockPos pos,
-			final BlockRenderView worldArg, final VertexConsumer vertexConsumer, final FluidState state) {
-		return NoShadesUtil.fluidLightnessDelegate(world, state);
+	private final BlockRenderView modifyWorldInRenderFluid(final BlockRenderView blockRenderView, final BlockPos pos,
+			final BlockRenderView world, final VertexConsumer vertexConsumer, final FluidState state) {
+		return NoShadesUtil.fluidLightnessDelegate(blockRenderView, state);
 	}
 }
