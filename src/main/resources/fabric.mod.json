@@ -1,0 +1,37 @@
+{
+  "schemaVersion" : 1,
+  "id" : "noshades",
+  "version" : "${version}",
+
+  "name" : "NoShades Mod",
+  "description" : "A Minecraft Fabric mod that adds the ability to modify how visible minecraft's shading.",
+  "authors" : [
+    "StartsMercury"
+  ],
+  "contact" : {
+    "sources" : "https://github.com/StartsMercury/noshades",
+    "issues" : "https://github.com/StartsMercury/noshades/issues"
+  },
+  "license" : "MIT",
+  "icon" : "pack.png",
+  "environment" : "client",
+  "entrypoints" : {
+    "client" : [
+      "com.github.startsmercury.noshades.entrypoint.NoShadesClientMod"
+    ],
+    "modmenu" : [
+      "com.github.startsmercury.noshades.entrypoint.NoShadesModMenu"
+    ]
+  },
+  "mixins" : [ "noshades.mixins.json" ],
+  "depends" : {
+    "fabricloader" : ">=0.11.3",
+    "fabric" : "*",
+    "java" : ">=16",
+    "minecraft" : "1.17.x",
+    "modmenu" : ">=2.0.0-beta.7"
+  },
+  "recommends": {
+    "sodium": "0.3.x"
+  }
+}
