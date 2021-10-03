@@ -17,9 +17,9 @@ public abstract class BlockRendererManagerMixin {
 	private BlockRendererManagerMixin() {
 	}
 
-	@ModifyVariable(method = "renderFluid", at = @At("HEAD"), name = "world", argsOnly = true)
-	private final BlockRenderView modifyWorldInRenderFluid(final BlockRenderView $world, final BlockPos pos,
+	@ModifyVariable(method = "renderFluid", at = @At("HEAD"), argsOnly = true)
+	private final BlockRenderView modifyWorldInRenderFluid(final BlockRenderView blockRenderView, final BlockPos pos,
 			final BlockRenderView world, final VertexConsumer vertexConsumer, final FluidState state) {
-		return NoShadesUtil.fluidLightnessDelegate($world, state);
+		return NoShadesUtil.fluidLightnessDelegate(blockRenderView, state);
 	}
 }
